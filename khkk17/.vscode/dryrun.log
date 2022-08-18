@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/francisco/Documents/Otimizacao/khkk17'
+gcc -c trab1.c -Wall
+gcc -c main.c 
+gcc -o trab1 main.o trab1.o 
+make: Leaving directory '/home/francisco/Documents/Otimizacao/khkk17'
+ 
